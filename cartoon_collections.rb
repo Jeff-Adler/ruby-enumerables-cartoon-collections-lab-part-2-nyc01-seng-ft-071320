@@ -27,7 +27,6 @@ def find_valid_calls(planeteer_calls)
   valid_calls.each do |valid_call|
     planeteer_calls.detect do |call|
         call == valid_call
-      end
     end
   end
 end
